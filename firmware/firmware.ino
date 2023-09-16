@@ -1,3 +1,19 @@
+/*
+
+Must change pins_arduino.h
+File may in this place:
+C:\Users\vincent\AppData\Local\Arduino15\packages\arduino\hardware\mbed_rp2040\4.0.4\variants\RASPBERRY_PI_PICO\pins_arduino.h
+
+// Wire
+// #define PIN_WIRE_SDA        (4u)
+// #define PIN_WIRE_SCL        (5u)
+
+// Change By Vincent
+#define PIN_WIRE_SDA        (6u)
+#define PIN_WIRE_SCL        (7u)
+
+*/
+
 // Arduino Mbed OS RP2040 Boards version 4.0.4
 // 使用库 SPI 在文件夹： C:\Users\vincent\AppData\Local\Arduino15\packages\arduino\hardware\mbed_rp2040\4.0.4\libraries\SPI (legacy)
 // 使用 1.0.1  版本的库 RP2040_SD 在文件夹： C:\Users\vincent\Documents\Arduino\libraries\RP2040_SD
