@@ -1,3 +1,12 @@
+// Arduino Mbed OS RP2040 Boards version 4.0.4
+// 使用库 SPI 在文件夹： C:\Users\vincent\AppData\Local\Arduino15\packages\arduino\hardware\mbed_rp2040\4.0.4\libraries\SPI (legacy)
+// 使用 1.0.1  版本的库 RP2040_SD 在文件夹： C:\Users\vincent\Documents\Arduino\libraries\RP2040_SD
+// 使用 4.6.0  版本的库 RadioLib 在文件夹： C:\Users\vincent\Documents\Arduino\libraries\RadioLib
+// 使用库 Wire 在文件夹： C:\Users\vincent\AppData\Local\Arduino15\packages\arduino\hardware\mbed_rp2040\4.0.4\libraries\Wire (legacy)
+// 使用 1.11.5  版本的库 Adafruit_GFX_Library 在文件夹： C:\Users\vincent\Documents\Arduino\libraries\Adafruit_GFX_Library
+// 使用 1.14.1  版本的库 Adafruit_BusIO 在文件夹： C:\Users\vincent\Documents\Arduino\libraries\Adafruit_BusIO
+// 使用 2.5.1  版本的库 Adafruit_SSD1306 在文件夹： C:\Users\vincent\Documents\Arduino\libraries\Adafruit_SSD1306
+
 #include "config.h"
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
